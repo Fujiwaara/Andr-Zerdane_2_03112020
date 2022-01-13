@@ -380,7 +380,7 @@ nav {
 
 .populaire {
   display: flex;
-  flex-wrap: wrap ;
+  flex-direction: column;
   background-color: #F2F2F2;
   border-radius: 1rem;
   padding: 35px;
@@ -446,6 +446,8 @@ nav {
     row-gap: 30px;
   }
   .populaire {
+    flex-direction: row;
+    flex-wrap: wrap;
     grid-row-start: 1;
     border-radius: 0;
     padding: 0;
@@ -454,7 +456,6 @@ nav {
     padding: 35px 20px 0 25px;
   }
   .populaire_a {
-    display: flex;
     width: 30%;
     margin: 16px 15px 40px 15px;
   }
