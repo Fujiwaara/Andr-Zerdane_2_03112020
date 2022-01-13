@@ -466,7 +466,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 992px) {
   .populaire {
     display: flex;
     flex-direction: column;
@@ -658,6 +658,7 @@ footer ul {
     padding-right: 0;
   }
 }
+
 @media screen and (max-width: 600px) {
   .footer_container_ul {
     display: flex;
